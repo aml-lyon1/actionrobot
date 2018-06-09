@@ -14,6 +14,7 @@ votre nombre de points qui dépend de votre classement à chaque round
 Les points à chaque round sont calculés comme suit :
 
 | Classement | Points |
+|------------|--------|
 | 1er	| 10 points |
 | 2ème	| 7 points |
 | 3ème	| 3 points |
@@ -25,12 +26,15 @@ __1ère manche__ (20 -> 8)
 Les 20 équipes sont réparties en 5 "poules" de 4 équipes.
 Le meilleur de chaque groupe (en points) sont sélectionnés.
 Ensuite, parmi ceux restants, les 3 meilleurs temps sont également sélectionnés.
+
 __Quarts de finale__ (8 -> 4)
 Les 8 équipes restantes sont réparties en 2 groupes de 4 équipes
 Le meilleur de chaque groupe est sélectionné
 Les 2 meilleurs temps sont sélectionnés parmi ceux restants
+
 __Demi-finale__ (4 -> 2)
 Seuls les points comptent !
+
 __Finale__
 Les 2 dernières équipes s'affrontent dans un grand labyrinthe.
 Le premier à remporter 2 victoires remporte le tournoi !
