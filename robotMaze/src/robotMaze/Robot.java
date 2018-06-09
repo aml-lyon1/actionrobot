@@ -2,8 +2,8 @@ package robotMaze;
 
 public class Robot {
 	
-	int step ; 
-	int speed ; 
+	private int step ; 
+	private int speed ; 
 	
 	/**
 	 * Instantiate a robot with standard speed and step as defined in main class.
