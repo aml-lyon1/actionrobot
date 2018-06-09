@@ -14,6 +14,7 @@ votre nombre de points qui dépend de votre classement à chaque round
 Les points à chaque round sont calculés comme suit :
 
 | Classement | Points |
+| ---------- | ------ |
 | 1er	| 10 points |
 | 2ème	| 7 points |
 | 3ème	| 3 points |
@@ -40,6 +41,7 @@ Le premier à remporter 2 victoires remporte le tournoi !
 #### Contributions 
  
 Cette base de code est proposée par Augustin Chateau et Alice Montel, développé spécifiquement pour l'occasion. 
+La première version du projet est également disponible [ici](<https://github.com/Lyon1-Asterix/actionrobot>)
 
 
 
