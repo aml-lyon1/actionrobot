@@ -1,7 +1,8 @@
 # Projet actionrobot : Épreuve du Labyrinthe
 Challenge de programmation proposé aux étudiants informatiques par l'AML. L'objectif : faire sortir son robot du labyrinthe :D 
 
-Ce projet est en cours. V1 disponible le Lundi 11/06/2018, stay tuned ;) 
+Ce projet est en cours. V1.2 disponible le Mardi 12/06/2018, stay tuned ;) 
+Vous n'êtes pas à l'abris de voir de nouvelles fonctions apparaître, ou quelques liens supplémentaires alors pensez à checker régulièrement ce repo ! 
 
 ## Déroulement du tournoi
 
@@ -41,13 +42,16 @@ Le premier à remporter 2 victoires remporte le tournoi !
 
 ## Documentation 
 
-Tutoriel pour communiquer avec votre robot (Python) [ici](<https://media.readthedocs.org/pdf/python-ev3dev/latest/python-ev3dev.pdf>)
+### Python 
+Tutoriel pour communiquer avec votre robot [ici](<https://media.readthedocs.org/pdf/python-ev3dev/latest/python-ev3dev.pdf>)
 
-Un peu d'aide pour faire bouger votre robot en Python [par là](<http://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/stable/motors.html>)
+Un peu d'aide pour faire bouger votre robot [par là](<http://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/stable/motors.html>)
 
-Si vous êtes plutôt Java, il existe un plugin Eclipse (Lejos EV3), un peu de doc par [ici](<http://www.lejos.org/ev3/docs/>)
+### Java 
+Si vous êtes plutôt Java, il existe un plugin Eclipse (Lejos EV3), un peu de doc par [ici](<http://www.lejos.org/ev3/docs/>). Et pour communiquer avec votre robot depuis Eclipse en partant de zéro, vous pouvez regarder par [là](<http://www.lejos.org/ev3.php>)
 
 ## Deadlines 
+La compétition aura lieu le 27 Septembre 2018, soyez prêts ! 
 
 #### Contributions 
  
