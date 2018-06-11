@@ -45,6 +45,7 @@ Tutoriel pour communiquer avec votre robot (Python) [ici](<https://media.readthe
 
 Un peu d'aide pour faire bouger votre robot en Python [par là](<http://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/stable/motors.html>)
 
+Si vous êtes plutôt Java, il existe un plugin Eclipse (Lejos EV3), un peu de doc par [ici](<http://www.lejos.org/ev3/docs/>)
 
 ## Deadlines 
 
