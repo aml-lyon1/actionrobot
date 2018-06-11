@@ -16,7 +16,7 @@ class Robot:
 
         # motors
         self.left_motor = ev3.LargeMotor('outA')
-        self.right_motor = ev3.LargeMotor('outB')
+        self.right_motor = ev3.LargeMotor('outD')
         self.motors = [self.left_motor, self.right_motor]
         for motor in self.motors:
             motor.stop_action = 'hold'
@@ -31,8 +31,9 @@ class Robot:
             motor.reset()
 
     def avancer(self, nb_cases=1):
-        pass
-
+		self.right_motor.run_timed(time_sp=3000, speed_sp=500)
+		self.left_motor.run_timed(time_sp=3000, speed_sp=500)
+		
     def reculer(self, nb_cases=1):
         pass
 
@@ -61,4 +62,4 @@ if __name__ == "__main__":
     robot = Robot()
 	print("hello")
     #for i in range(4):
-    robot.tourner(1)
+    robot.avancer(1)
