@@ -39,6 +39,8 @@ Le premier à remporter 2 victoires remporte le tournoi !
 ## Documentation 
 
 Tutoriel pour communiquer avec votre robot (Python) [ici](<https://media.readthedocs.org/pdf/python-ev3dev/latest/python-ev3dev.pdf>)
+Un peu d'aide pour faire bouger votre robot en Python [par là](<http://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/stable/motors.html>)
+
 
 ## Deadlines 
 
