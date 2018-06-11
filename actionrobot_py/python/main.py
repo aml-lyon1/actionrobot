@@ -37,7 +37,7 @@ class Robot:
         pass
 
     def demitour(self):
-        pass
+        self.tourner(6)
 
     # valeurs correctes pour rotation : -1 (sens horaire), 1 (sens trigo)
     # Vous pouvez aussi donner 2 ou -2 pour faire un demi-tour, ou 4 pour faire joyeusement un tour sur vous-même
@@ -56,12 +56,9 @@ class Robot:
         #                          speed_sp=-sens * self.turn_speed)
 
         self.left_motor.wait_until_not_moving(10000)
-
-    def victoire(self):
-        pass
-
-
+		
 if __name__ == "__main__":
     robot = Robot()
+	print("hello")
     #for i in range(4):
     robot.tourner(1)
