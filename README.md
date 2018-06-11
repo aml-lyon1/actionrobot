@@ -36,6 +36,10 @@ __Finale__
 Les 2 dernières équipes s'affrontent dans un grand labyrinthe.
 Le premier à remporter 2 victoires remporte le tournoi !
 
+## Documentation 
+
+Tutoriel pour communiquer avec votre robot (Python) [ici](<https://media.readthedocs.org/pdf/python-ev3dev/latest/python-ev3dev.pdf>)
+
 ## Deadlines 
 
 #### Contributions 
