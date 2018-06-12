@@ -48,7 +48,7 @@ Tutoriel pour communiquer avec votre robot [ici](<https://media.readthedocs.org/
 Un peu d'aide pour faire bouger votre robot [par là](<http://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/stable/motors.html>)
 
 ### Java 
-Si vous êtes plutôt Java, il existe un plugin Eclipse (Lejos EV3), un peu de doc par [ici](<http://www.lejos.org/ev3/docs/>). Et pour communiquer avec votre robot depuis Eclipse en partant de zéro, vous pouvez regarder par [là](<http://www.lejos.org/ev3.php>)
+Si vous êtes plutôt Java, il existe un plugin Eclipse (Lejos EV3), un peu de doc par [ici](<http://www.lejos.org/ev3/docs/>). Et pour communiquer avec votre robot depuis Eclipse en partant de zéro, vous pouvez regarder par [là](<http://www.lejos.org/ev3.php>). Amateurs de windows10, méfiance ! Il se peut que vous ayez quelques soucis de driver qui entrave la communication Eclipse <-> robot. Préférez donc une distrib Linux ou même Windows 7. 
 
 ## Deadlines 
 La compétition aura lieu le 27 Septembre 2018, soyez prêts ! 
