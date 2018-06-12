@@ -12,7 +12,7 @@ class Robot:
         # config (A CHANGER SI VOUS CHANGEZ LA STRUCTURE DU ROBOT)
         self.turn_speed = 200
         #self.turn_factor = 144
-        self.ratio_moteur_roue = 0.5
+        self.ratio_moteur_roue = 0.5*3
         self.tile_size = 40 # en cm
 
 
@@ -48,9 +48,9 @@ class Robot:
         sens = math.copysign(1, rotation)
         rotation = math.copysign(rotation, 1)
         count_per_rot = self.right_motor.count_per_rot
-        self.right_motor.run_to_abs_pos(position_sp=sens * rotation *3 * count_per_rot * self.ratio_moteur_roue,
+        self.right_motor.run_to_abs_pos(position_sp=sens * rotation * count_per_rot * self.ratio_moteur_roue,
                                         speed_sp=self.turn_speed)
-        self.left_motor.run_to_abs_pos(position_sp=-sens * rotation *3 * count_per_rot * self.ratio_moteur_roue,
+        self.left_motor.run_to_abs_pos(position_sp=-sens * rotation * count_per_rot * self.ratio_moteur_roue,
                                        speed_sp=self.turn_speed)
         #factor = self.turn_factor / self.turn_speed
         #self.right_motor.run_timed(time_sp=rotation * factor * 1000,
