@@ -102,22 +102,34 @@ public class Robot {
 	 * Make the robot turn right, without moving forward 
 	 * 
 	 */
-	public void turnRight() {
-		//TODO  
+	public void turnRight(int nbTour) {
+		for(int i=0; i<nbTour; i++) {
+			this.leftM.forward();
+			this.rightM.backward();
+			Delay.msDelay(myclass.STD_TIME);
+			this.leftM.stop();
+			this.rightM.stop();
+		}
 	}
 
 	/** 
 	 * Make the robot turn left, without moving forward
 	 */
-	public void turnLeft() {
-		//TODO 
+	public void turnLeft(int nbTour) {
+		for(int i=0; i<nbTour; i++) {
+			this.leftM.backward();
+			this.rightM.forward();
+			Delay.msDelay(myclass.STD_TIME);
+			this.leftM.stop();
+			this.rightM.stop();
+		}
 	}
 	
 	/**
 	 * The robot makes a Uturn, without moving forward 
 	 */
 	public void uturn() {
-		//TODO  
+		this.turnLeft(2);
 	}
 	
 }
