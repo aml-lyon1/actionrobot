@@ -11,6 +11,7 @@ public class Robot {
 	private RegulatedMotor rightM ;
 	private RegulatedMotor leftM ; 
 	
+
 	/**
 	 * Instantiate a robot with standard speed and step as defined in main class.
 	 */
