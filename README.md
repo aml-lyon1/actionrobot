@@ -1,63 +1,100 @@
-# Projet actionrobot : Épreuve du Labyrinthe
-Challenge de programmation proposé aux étudiants informatiques par l'AML. L'objectif : faire sortir son robot du labyrinthe :D 
+# [ActionRobots](https://forge.univ-lyon1.fr/aml-lyon1/actionrobot)
 
-Ce projet est en cours. V1.2 disponible le Mardi 12/06/2018, stay tuned ;) 
-Vous n'êtes pas à l'abris de voir de nouvelles fonctions apparaître, ou quelques liens supplémentaires alors pensez à checker régulièrement ce repo ! 
+Le 27 septembre après-midi est une demi-journée banalisée pour qu'on
+puisse se réunir au Nautibus, mener des concours de robots
+autonomes, parler science en s'amusant, et finir en beauté avec le
+BBQ organisé par l'[AML](http://aml.univ-lyon1.fr/).
 
-## Déroulement du tournoi
+Tous les étudiants de Lyon 1 sont conviés : IUT, CPE, Polytech, INSA,
+Nautibus !
 
-Ce tournoi est divisé en plusieurs manches, à l'issue desquelles des gens sont éliminés, pour n'en garder qu'un à la fin ! Chaque manche est composée de 2 rounds avec 2 labyrinthes différents.
+* * *
 
-À chaque manche, 4 robots concourent simultanément. Chaque robot encore en lice fera les 2 labyrinthes de la manche. Nous examinons 2 critères :
+## Thèmes et objectifs
 
-le temps cumulé que votre robot a mis à sortir
-votre nombre de points qui dépend de votre classement à chaque round
-Les points à chaque round sont calculés comme suit :
+La demi-journée s'articule autour de deux épreuves de pilotage
+autonome de robots, et une épreuve de beauté ; la première consiste à ce que le robot puisse
+sortir d’un labyrinthe le plus rapidement possible, la seconde oppose
+deux robots, chacun devant sortir son adversaire d’une région délimitée au
+sol. Pour la dernière, votre robot doit être tuné pour avoir le look le plus fun. Les matchs seront diffusés live sur nos écrans !
 
-| Classement | Points |
-| ---------- | ------ |
-| 1er	| 10 points |
-| 2ème	| 7 points |
-| 3ème	| 3 points |
-| 4ème	| 1 points |
+* Pour préparer votre participation aux challenges, nous vous invitons
+  au Hackerspace (TD8, 1er étage, Nautibus), à partir du 13 juin !
 
-Les manches se déroulent comme suit :
+Il y aura aussi des talks pour comprendre certaines problématiques
+liées à la robotique, aux systèmes embarqués utilisés, les bases d'IA
+ou des notions de systèmes multi-agents, par exemple la problématique
+de vol en formation de drones "Crazyflie".
 
-__1ère manche__ (20 -> 8)
-Les 20 équipes sont réparties en 5 "poules" de 4 équipes.
-Le meilleur de chaque groupe (en points) sont sélectionnés.
-Ensuite, parmi ceux restants, les 3 meilleurs temps sont également sélectionnés.
+Et pour ceux qui souhaiteraient s'y mettre ou aller plus loin que ce
+qu'ils ont fait pour l'évènement, des ateliers avec plusieurs robots,
+et pas forcément les mêmes que pour les challenges, seront aussi
+organisés. :)
 
-__Quarts de finale__ (8 -> 4)
-Les 8 équipes restantes sont réparties en 2 groupes de 4 équipes
-Le meilleur de chaque groupe est sélectionné
-Les 2 meilleurs temps sont sélectionnés parmi ceux restants.
-
-__Demi-finale__ (4 -> 2)
-Seuls les points comptent !
-
-__Finale__
-Les 2 dernières équipes s'affrontent dans un grand labyrinthe.
-Le premier à remporter 2 victoires remporte le tournoi !
-
-## Documentation 
-
-### Python 
-Tutoriel pour communiquer avec votre robot [ici](<https://media.readthedocs.org/pdf/python-ev3dev/latest/python-ev3dev.pdf>)
-
-Un peu d'aide pour faire bouger votre robot [par là](<http://ev3dev-lang.readthedocs.io/projects/python-ev3dev/en/stable/motors.html>)
-
-### Java 
-Si vous êtes plutôt Java, il existe un plugin Eclipse (Lejos EV3), un peu de doc par [ici](<http://www.lejos.org/ev3/docs/>). Et pour communiquer avec votre robot depuis Eclipse en partant de zéro, vous pouvez regarder par [là](<http://www.lejos.org/ev3.php>). Amateurs de windows10, méfiance ! Il se peut que vous ayez quelques soucis de driver qui entrave la communication Eclipse <-> robot. Préférez donc une distrib Linux ou même Windows 7. 
-
-## Deadlines 
-La compétition aura lieu le 27 Septembre 2018, soyez prêts ! 
-
-#### Contributions 
- 
-Cette base de code est proposée par Augustin Chateau et Alice Montel, développé spécifiquement pour l'occasion. 
-La première version du projet est également disponible [ici](<https://github.com/Lyon1-Asterix/actionrobot>)
+Nous aurons également une session poster afin de se rendre compte des
+problèmes actuels qui sont étudiés, et auxquels on essaie de répondre
+: une bonne occasion pour voir ce qu'est un sujet de thèse, comment
+une thèse se déroule et se prépare.
 
 
+* * *
 
+## Agenda, projet de déroulement de la demi-journée
+
+| Horaires    | Actions						|
+|---|---							|
+| 13h15 - 13h30 | début de l'évènement				|
+|		|  Salle C4  					|
+| 14h - 14h30 	| Premiers rounds des challenges		|
+|		|  Salle C4  	      				|
+| 15h - 16    	| Conférences et ateliers   	 	    	|
+|               | TD8 : Atelier & C4 : Talk & C5 : Posters 	|
+| 16h - 16h30   | Deuxièmes rounds des challenges		|
+|		|  Salle C4   	       				|
+| 16h45 - 17h30	| Conférences et ateliers 	 	    	|
+|               | TD8 : Atelier & C4 : Talk & C5 : Posters 	|
+| 17h45 - 18h15	| Derniers rounds des challenges		|
+|		|  Salle C4  	      				|
+| 18h30 - 19h 	| Le mot de la fin				|
+|		|  Salle C4    					|
+| 19h	      	| BBQ de l'AML !				|
+|		|  Dehors, sortie côté salle C5 		|
+
+* * *
+
+## Plus d'Info
+
+### Participer aux challenges Robots
+
+Inscrivez-vous en remplissant [ce formulaire](https://framaforms.org/actionrobots-inscription-1528878238) : nous pouvons accueillir
+au moins 20 groupes de 2-4 étudiants.
+Les bases ou squelettes du code pour piloter un robot sont disponibles dans le répertoire 'python' et le répértoire 'java' selon vos préférences.
+
+### Où ?
+
+Le
+[Nautibus](http://oscar.univ-lyon1.fr/appli-externe/plan/plans/plan_campus_ouest.html)
+est le bâtiment du Département informatique de l'Université Lyon 1. Il se situe au 23 avenue Pierre de Coubertin 69100 Villeurbanne
+
+Le Hackerspace est un espace au Nautibus contenant des Arduinos, des PCs, des kinects, des robots Lego modulables, etc. 
+Le Hackerspace sera ouvert tous les jours jusqu’à mi-juillet et reprendra à partir de début septembre. Tout le monde peut y venir préparer son ou ses défis : les robots sont à disposition, et des échanges sont et seront possibles avec les intervenants présents. Les étudiants qui le souhaitent pourront continuer de venir après l’événement au Hackerspace pour jouer et apprendre avec le matériel mis à disposition.
+
+La [Forge Lyon 1](https://forge.univ-lyon1.fr/) est un service de
+travail en coopération Lyon 1, utilisant la technologie GitLab.
+
+### Qui contacter
+#### Pour s'inscrire : [aml@univ-lyon1.fr]
+* Cylia BOUTATA, présidente de l'AML et co-organisatrice de l'événement.
+* [Formulaire d'inscription](https://framaforms.org/actionrobots-inscription-1528878238)
+* N'hésitez pas à passer à l'improviste à l'AML.
+
+#### Pour le code des robots : [alice.montel@etu.univ-lyon1.fr] || [augustinchateauricherd@gmail.com]
+* Alice MONTEL, co-auteur du code et notre expert robot.
+* Augustin CHATEAU-RICHERD, co-auteur du code et notre expert robot.
+
+#### Pour le Hackerspace : [erwan.guillou@univ-lyon1.fr]
+* Erwan GUILLOU, le responsable de cet espace dédié aux Hacks.
+
+#### Informations diverses : [yves.caniou@univ-lyon1.fr]
+* Yves CANIOU, maître de conférences et co-organisateur de l'événement.
 
